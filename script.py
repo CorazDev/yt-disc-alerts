@@ -1,4 +1,4 @@
-import os
+ideoimport os
 import feedparser
 import requests
 
@@ -57,7 +57,7 @@ def main():
                 webhook_url = os.environ.get(rule["secret_name"])
                 if webhook_url:
                     message = {
-                        "content": f"🎥 **Nouvelle vidéo trouvée !**\n**{title}**\n{link}"
+                        "content": f"🎥 **New video !**\n**{title}**\n{link}"
                     }
                     response = requests.post(webhook_url, json=message)
                     if response.status_code in (200, 204):
