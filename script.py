@@ -17,7 +17,7 @@ RULES = [
         "secret_name": "WEBHOOK_DREAM_REALM"
     },
     {
-        "keywords": ["supreme arena", "my_supreme_arena"],
+        "keywords": ["supreme arena", "supremea"],
         "secret_name": "WEBHOOK_TEST_1"
     },
     {
