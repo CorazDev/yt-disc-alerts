@@ -2,15 +2,14 @@ name: YouTube Discord Bot
 
 on:
   schedule:
-    # S'exécute environ toutes les 15 minutes
     - cron: '*/15 * * * *'
-  workflow_dispatch: # Permet de lancer le script manuellement
+  workflow_dispatch:
 
 jobs:
   check-youtube:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # Nécessaire pour sauvegarder les vidéos publiées
+      contents: write
 
     steps:
       - name: Récupérer le code
@@ -35,5 +34,6 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add posted_videos.txt
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Mise à jour des vidéos publiées" && git push)
+          git add -A
+          git commit -m "Mise à jour automatique" || exit 0
+          git push
