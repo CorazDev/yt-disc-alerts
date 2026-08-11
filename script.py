@@ -1,4 +1,4 @@
-ideoimport os
+import os
 import feedparser
 import requests
 
