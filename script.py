@@ -17,11 +17,11 @@ RULES = [
         "secret_name": "WEBHOOK_DREAM_REALM"
     },
     {
-        "keywords": ["dream hunter", "hunter"],
+        "keywords": ["supreme arena"],
         "secret_name": "WEBHOOK_TEST_1"
     },
     {
-        "keywords": ["clash of glory", "glory"],
+        "keywords": ["relentless rumble", "relentless"],
         "secret_name": "WEBHOOK_TEST_2"
     }
 ]
