@@ -13,15 +13,103 @@ POSTED_FILE = "posted_videos.txt"
 # (Modifie les mots-clés entre guillemets selon ce que tu cherches)
 RULES = [
     {
-        "keywords": ["dream realm", "realm"],
+        "keywords": ["dream realmm", "realmm"],
         "secret_name": "WEBHOOK_DREAM_REALM"
     },
     {
-        "keywords": ["supreme arena", "supremea"],
+        "keywords": ["supreme arenaa", "supremea"],
         "secret_name": "WEBHOOK_TEST_1"
     },
     {
-        "keywords": ["relentless rumble", "relentless"],
+        "keywords": ["dream realm", "dream realm!"],
+        "secret_name": "WEBHOOK_DR"
+    },
+    {
+        "keywords": ["supreme arena", "suprem arena!"],
+        "secret_name": "WEBHOOK_SUPREME_ARENA"
+    },
+    {
+        "keywords": ["should you pull", "should you pull,"],
+        "secret_name": "WEBHOOK_SHOULD_PULL"
+    },
+    {
+        "keywords": ["arcane labyrinth", "arcane labyrinth!"],
+        "secret_name": "WEBHOOK_ARCANE_LAB"
+    },
+    {
+        "keywords": ["honor duel", "honor duel!"],
+        "secret_name": "WEBHOOK_HONOR_DUEL"
+    },
+    {
+        "keywords": ["primal lord", "primal lord!"],
+        "secret_name": "WEBHOOK_PRIMAL_LORD"
+    },
+    {
+        "keywords": ["ravaged realm", "ravaged realm!"],
+        "secret_name": "WEBHOOK_RAVAGED_REALM"
+    }, 
+    {
+        "keywords": ["homestead", "homestead!"],
+        "secret_name": "WEBHOOK_HOMESTEAD"
+    },
+    {
+        "keywords": ["dura's trial", "charms", "charm"],
+        "secret_name": "WEBHOOK_DURA_TRIAL_TOWER"
+    },
+    {
+        "keywords": ["titan reaver", "titan reaver!"],
+        "secret_name": "WEBHOOK_TITAN_REAVER"
+    },
+    {
+        "keywords": ["dream hunt", "dream hunt!"],
+        "secret_name": "WEBHOOK_DREAM_HUNT"
+    },
+    {
+        "keywords": ["battle drills", "battle drills!"],
+        "secret_name": "WEBHOOK_BATTLE_DRILL"
+    },
+    {
+        "keywords": ["glyphshade", "guild duel"],
+        "secret_name": "WEBHOOK_GUILD_DUEL"
+    },
+    {
+        "keywords": ["clashfronts", "clashfronts!"],
+        "secret_name": "WEBHOOK_CLASHFRONT"
+    },
+    {
+        "keywords": ["clash of glory", "clash of glory!"],
+        "secret_name": "WEBHOOK_CLASH_GLORY"
+    },
+    {
+        "keywords": ["relentless rumble", "relentless rumble:"],
+        "secret_name": "WEBHOOK_RELENTLESS_RUMBLE"
+    },
+    {
+        "keywords": ["stellar ascent", "stellar ascent:"],
+        "secret_name": "WEBHOOK_STELLAR_ASCENT"
+    }, 
+    {
+        "keywords": ["solstice clash", "solstice clash:"],
+        "secret_name": "WEBHOOK_SOLSTICE_CLASH"
+    },    
+    {
+        "keywords": ["heroic gauntlet", "heroic gauntlet:"],
+        "secret_name": "WEBHOOK_HEROIC_GAUNTLET"
+    },
+    {
+        "keywords": ["pearl tycoon", "pearl tycoon:"],
+        "secret_name": "WEBHOOK_PEARL_TYCOON"
+    },
+    {
+        "keywords": ["crystal clash", "crystal clash:"],
+        "secret_name": "WEBHOOK_CRYSTAL_CLASH"
+    },
+        {
+        "keywords": ["voyage of wonders", "voyage of wonders:"],
+        "secret_name": "WEBHOOK_VOYAGE_WONDER"
+    },
+    {
+        "keywords": ["relentless rumblee", "relentless rumblee!"],
         "secret_name": "WEBHOOK_TEST_2"
     }
 ]
