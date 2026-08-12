@@ -14,7 +14,7 @@ POSTED_FILE = "posted_videos.txt"
 RULES = [
 
     {
-        "keywords": ["dream realm", "dream realm!"],
+        "keywords": ["dream realm", "dream realm!", "king croaker", "snow stomper", "gloommaw", "doomscourge", "lady starfallen", "sarethiel", "illucia", "midnight harvester"],
         "secret_name": "WEBHOOK_DR"
     },
     {
