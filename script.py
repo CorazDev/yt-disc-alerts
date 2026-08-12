@@ -104,10 +104,14 @@ RULES = [
         "keywords": ["crystal clash", "crystal clash:"],
         "secret_name": "WEBHOOK_CRYSTAL_CLASH"
     },
-        {
+    {
         "keywords": ["voyage of wonders", "voyage of wonders:"],
         "secret_name": "WEBHOOK_VOYAGE_WONDER"
     },
+    {
+        "keywords": ["trailer", "preview", "Do this to progress fast", "We need to talk", "Patch", "State of AFK Journey", "Dev notes", "New collab", "New Hypogean", "New Celestial", "Do this to prepare", "Do this before"],
+        "secret_name": "WEBHOOK_MAIN_CHAT"
+    },    
     {
         "keywords": ["relentless rumblee", "relentless rumblee!"],
         "secret_name": "WEBHOOK_TEST_2"
