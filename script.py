@@ -12,14 +12,7 @@ POSTED_FILE = "posted_videos.txt"
 # REGLES : Associe des mots-clés au nom du secret GitHub correspondant
 # (Modifie les mots-clés entre guillemets selon ce que tu cherches)
 RULES = [
-    {
-        "keywords": ["dream realmm", "realmm"],
-        "secret_name": "WEBHOOK_DREAM_REALM"
-    },
-    {
-        "keywords": ["supreme arenaa", "supremea"],
-        "secret_name": "WEBHOOK_TEST_1"
-    },
+
     {
         "keywords": ["dream realm", "dream realm!"],
         "secret_name": "WEBHOOK_DR"
@@ -111,10 +104,6 @@ RULES = [
     {
         "keywords": ["trailer", "preview", "Do this to progress fast", "We need to talk", "Patch", "State of AFK Journey", "Dev notes", "New collab", "New Hypogean", "New Celestial", "Do this to prepare", "Do this before"],
         "secret_name": "WEBHOOK_MAIN_CHAT"
-    },    
-    {
-        "keywords": ["relentless rumblee", "relentless rumblee!"],
-        "secret_name": "WEBHOOK_TEST_2"
     }
 ]
 
