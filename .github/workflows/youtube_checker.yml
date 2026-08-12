@@ -25,9 +25,6 @@ jobs:
 
       - name: Exécuter le script
         env:
-          WEBHOOK_DREAM_REALM: ${{ secrets.WEBHOOK_DREAM_REALM }}
-          WEBHOOK_TEST_1: ${{ secrets.WEBHOOK_TEST_1 }}
-          WEBHOOK_TEST_2: ${{ secrets.WEBHOOK_TEST_2 }}
           WEBHOOK_DR: ${{ secrets.WEBHOOK_DR }}
           WEBHOOK_AFK_STAGES: ${{ secrets.WEBHOOK_AFK_STAGES }}
           WEBHOOK_SUPREME_ARENA: ${{ secrets.WEBHOOK_SUPREME_ARENA }}
