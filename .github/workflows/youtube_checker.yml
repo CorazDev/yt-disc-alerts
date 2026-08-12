@@ -28,6 +28,32 @@ jobs:
           WEBHOOK_DREAM_REALM: ${{ secrets.WEBHOOK_DREAM_REALM }}
           WEBHOOK_TEST_1: ${{ secrets.WEBHOOK_TEST_1 }}
           WEBHOOK_TEST_2: ${{ secrets.WEBHOOK_TEST_2 }}
+          WEBHOOK_DR: ${{ secrets.WEBHOOK_DR }}
+          WEBHOOK_AFK_STAGES: ${{ secrets.WEBHOOK_AFK_STAGES }}
+          WEBHOOK_SUPREME_ARENA: ${{ secrets.WEBHOOK_SUPREME_ARENA }}
+          WEBHOOK_NORMAL_ARENA: ${{ secrets.WEBHOOK_NORMAL_ARENA }}
+          WEBHOOK_SHOULD_PULL: ${{ secrets.WEBHOOK_SHOULD_PULL }}
+          WEBHOOK_ARCANE_LAB: ${{ secrets.WEBHOOK_ARCANE_LAB }}
+          WEBHOOK_HONOR_DUEL: ${{ secrets.WEBHOOK_HONOR_DUEL }}
+          WEBHOOK_PRIMAL_LORD: ${{ secrets.WEBHOOK_PRIMAL_LORD }}
+          WEBHOOK_RAVAGED_REALM: ${{ secrets.WEBHOOK_RAVAGED_REALM }}
+          WEBHOOK_HOMESTEAD: ${{ secrets.WEBHOOK_HOMESTEAD }}
+          WEBHOOK_DURA_TRIAL_TOWER: ${{ secrets.WEBHOOK_DURA_TRIAL_TOWER }}
+          WEBHOOK_TITAN_REAVER: ${{ secrets.WEBHOOK_TITAN_REAVER }}
+          WEBHOOK_DREAM_HUNT: ${{ secrets.WEBHOOK_DREAM_HUNT }}
+          WEBHOOK_BATTLE_DRILL: ${{ secrets.WEBHOOK_BATTLE_DRILL }}
+          WEBHOOK_GUILD_DUEL: ${{ secrets.WEBHOOK_GUILD_DUEL }}
+          WEBHOOK_CLASHFRONT: ${{ secrets.WEBHOOK_CLASHFRONT }}
+          WEBHOOK_CLASH_GLORY: ${{ secrets.WEBHOOK_CLASH_GLORY }}
+          WEBHOOK_RELENTLESS_RUMBLE: ${{ secrets.WEBHOOK_RELENTLESS_RUMBLE }}
+          WEBHOOK_STELLAR_ASCENT: ${{ secrets.WEBHOOK_STELLAR_ASCENT }}
+          WEBHOOK_SOLSTICE_CLASH: ${{ secrets.WEBHOOK_SOLSTICE_CLASH }}
+          WEBHOOK_HEROIC_GAUNTLET: ${{ secrets.WEBHOOK_HEROIC_GAUNTLET }}
+          WEBHOOK_PEARL_TYCOON: ${{ secrets.WEBHOOK_PEARL_TYCOON }}
+          WEBHOOK_CRYSTAL_CLASH: ${{ secrets.WEBHOOK_CRYSTAL_CLASH }}
+          WEBHOOK_VOYAGE_WONDER: ${{ secrets.WEBHOOK_VOYAGE_WONDER }}
+          WEBHOOK_MAIN_CHAT: ${{ secrets.WEBHOOK_MAIN_CHAT }}
+
         run: python script.py
 
       - name: Sauvegarder l'historique
